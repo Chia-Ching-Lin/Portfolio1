@@ -1,7 +1,103 @@
-.index__h1 {
-  color: #00cc99;
+.menu {
+  padding-bottom: 14px;
+  padding-top: 14px;
+  border: 2px solid #adb5bd;
+}
+
+.menu li {
+  width: 80px;
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  height: 480px;
+  padding-left: 180px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg);
+  color: #fff;
+}
+
+.typeseting a {
+  color: #fff;
+  width: 160px;
+  height: 44px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  display: block;
+}
+
+.index img {
+  width: 350px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.index h2 {
+  font-weight: bold;
+}
+
+.index h5 {
+  font-weight: bold;
+}
+
+.index p {
+  font-weight: bold;
+}
+
+.live {
+  width: 100%;
+  height: 482px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/people2.png);
+}
+
+.bgc {
+  width: 445px;
+  height: 482px;
+  background-color: #190014CC;
+  padding-left: 24px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.bgc img {
+  width: 128px;
+  height: 128px;
+}
+
+.bgc p {
   font-size: 20px;
-  font-weight: 400;
+  color: #fff;
+}
+
+.bgc a {
+  background-color: #E31277;
+}
+
+@media (max-width: 767px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index img {
+    width: 345px;
+    height: 345px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
